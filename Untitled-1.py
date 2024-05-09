@@ -1,0 +1,1 @@
+c:\Users\vesin\OneDrive\Рабочий стол\telegram_parser_project.png
