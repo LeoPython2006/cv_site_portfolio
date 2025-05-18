@@ -223,6 +223,19 @@
       </div>
     </section>
 
+    <!-- AI GAME GENERATOR -->
+    <section class="ai-game py-5" id="ai-game">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="mb-4">Create a game with AI</h2>
+            <textarea id="game-prompt" class="form-control mb-2" rows="3" placeholder="Describe your game idea"></textarea>
+            <button onclick="generateGame()" class="btn btn-primary mb-3">Generate Game</button>
+            <div id="game-container"></div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- FOOTER -->
      <footer class="footer py-5">
           <div class="container">
@@ -243,6 +256,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/game_generator.js"></script>
 
   </body>
 </html>
